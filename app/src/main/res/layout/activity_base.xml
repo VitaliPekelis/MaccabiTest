@@ -22,14 +22,10 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorPrimary"
-            android:contentInsetLeft="0dp"
-            android:contentInsetStart="0dp"
             android:elevation="4dp"
             app:contentInsetLeft="0dp"
             app:contentInsetStart="0dp"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            />
-
+            app:titleTextColor="@color/whit_text"/>
     </android.support.design.widget.AppBarLayout>
 
     <!--Activity Content-->

@@ -2,6 +2,7 @@ package com.vitalipek.maccabitestapp.ui;
 
 import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewStub;
 
@@ -47,6 +48,12 @@ public abstract class BaseActivity extends AppCompatActivity
         {
             progressBar.setVisibility(View.GONE);
         }
+    }
+
+    protected void setTitle(String title)
+    {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(title);
     }
 
 }
