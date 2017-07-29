@@ -5,16 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vitalipek.maccabitestapp.ui.firstScreen.FirstActivity">
+    tools:context="com.vitalipek.maccabitestapp.ui.FirstActivity">
+
+    <!--<com.caverock.androidsvg.SVGImageView
+        android:id="@+id/item_country_iv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:svg="afg.svg"/>-->
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/first_activity_rv"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:scrollbars="vertical"/>
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
 
 </android.support.constraint.ConstraintLayout>

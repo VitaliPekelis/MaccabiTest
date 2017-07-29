@@ -10,8 +10,6 @@ import com.vitalipek.maccabitestapp.network.NetworkingHandler;
 
 public class MaccabiApp extends Application
 {
-    /*private static MaccabiApp instanse;*/
-
     @Override
     public void onCreate()
     {
@@ -19,10 +17,4 @@ public class MaccabiApp extends Application
         /*instanse = this;*/
         NetworkingHandler.initNetworkingHandler(MaccabiApp.this);
     }
-
-    /*public static MaccabiApp getInstanse()
-    {
-        return instanse;
-    }*/
-
 }
